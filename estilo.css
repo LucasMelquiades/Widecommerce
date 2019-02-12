@@ -1,0 +1,52 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 55px;
+	margin: 225px;
+}
+
+.exibir {
+  background-color: #000000; 
+  border: none;
+  color: #ffffff;
+  padding: 16px 62px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.exibir:hover {
+  background-color: #2A9FD8;
+  color: white;
+}
+
+#user {
+	text-align: center;
+	font-size: 55px;
+	margin: 38px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  display: none;
+  border-radius: 4px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
