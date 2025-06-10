@@ -8,7 +8,7 @@
 	<script>
 	$(document).ready(function(){
 	  $(".exibir").click(function(){
-		$("table").show( "slow" );
+		$(".esconder").show( "slow" );
 	  });
 	});
 	</script>
@@ -19,10 +19,10 @@
 <center>
 <a href="#user"><button class="exibir">Clique aqui</button></a>
 <br>
-<div id="user">
+<div id="user" class="esconder">
 	Usuários
 </div>
- <table>
+ <table class="esconder">
   <tr>
     <th>Nome</th>
     <th>Username</th>
